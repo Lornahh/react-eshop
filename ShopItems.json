@@ -2,19 +2,19 @@
   {
     "name": "Shoes",
     "id": 1,
-    "price": 37,
+    "price": 36.99,
     "image": "./shoes.jpg"
   },
   {
     "name": "Pants",
     "id": 2,
-    "price": 5,
+    "price": 16.99,
     "image": "./pants.jpg"
   },
   {
     "name": "Shorts",
     "id": 3,
-    "price": 12,
+    "price": 13.99,
     "image": "./shorts.png"
   }
 ]
