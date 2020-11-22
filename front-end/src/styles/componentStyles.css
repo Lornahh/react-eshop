@@ -14,10 +14,14 @@
 }
 .navbar a {
   display: block;
-  color: #111111;
+  color: #fafafa;
   text-align: center;
   padding: 1rem;
   text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #000;
 }
 
 .container {
@@ -28,7 +32,7 @@
 
 .ShopItem {
   border: #000000 0.05rem solid;
-  padding: 0.5rem 0 4rem 1rem;
+  padding: 0.5rem 1rem 4rem 1rem;
   height: 29rem;
   width: 29rem;
   margin: 1rem;
@@ -42,7 +46,11 @@
 }
 
 .ShopItem img {
-  padding: .5rem 0 0 0;
+  padding: 0.5rem 0 0 0;
+}
+
+.ShopItem h2 {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .ShopContainer {
@@ -73,9 +81,21 @@
   background-color: red;
 }
 
+.addRemoveButtons {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  font-family: Impact;
+}
+
 .cartContainer {
   margin: 0.5rem;
   padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.cartAmount {
   display: flex;
   justify-content: center;
 }

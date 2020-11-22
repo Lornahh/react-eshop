@@ -6,10 +6,18 @@ const Navbar = () => {
     <div className="navbar">
       <ul>
         <li>
-          <a href="cart">Cart</a>
+          <a href="cart">
+            <span role="img" aria-label="cart">
+              🛒
+            </span>
+          </a>
         </li>
         <li>
-          <a href="/">Home</a>
+          <a href="/">
+            <span role="img" aria-label="home">
+              🏠
+            </span>
+          </a>
         </li>
       </ul>
     </div>

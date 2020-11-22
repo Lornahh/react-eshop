@@ -1,6 +1,6 @@
 import React from "react";
 
-function Cart() {
+function Cart(cartCount) {
   return (
     <div className="cartContainer">
       <h1>Welcome to your cart</h1>
