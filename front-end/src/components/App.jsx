@@ -14,7 +14,6 @@ const App = () => {
       let data = await listItems.json();
       setShopList(data);
     };
-
     getShopItems();
   }, []);
   return (
@@ -30,6 +29,7 @@ const App = () => {
               ))}
             </div>
           </ul>
+          <Route path="/" component={ShopItem} />
         </Switch>
       </div>
     </Router>

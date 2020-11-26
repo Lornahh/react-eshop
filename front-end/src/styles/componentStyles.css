@@ -88,14 +88,13 @@
   font-family: Impact;
 }
 
-.cartContainer {
-  margin: 0.5rem;
-  padding: 0.5rem;
+.cartTitle,
+.couponInput {
   display: flex;
   justify-content: center;
 }
 
-.cartAmount {
+.couponInput {
   display: flex;
   justify-content: center;
 }
