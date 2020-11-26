@@ -17,8 +17,10 @@ function Cart() {
   const handleCouponSubmit = (e) => {
     e.preventDefault();
 
-    if (couponList.find((c) => couponCode.toString.ignoreCase === c)) {
-      alert("Yeah it works");
+    if (couponList.find((c) => couponCode === c)) {
+      alert("That code is valid! Discount code applied to balance.");
+    } else {
+      alert("That code is not valid!");
     }
   };
 
