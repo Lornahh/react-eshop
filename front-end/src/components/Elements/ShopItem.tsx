@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import "../../styles/componentStyles.css";
 
 interface Shop {
@@ -12,7 +12,6 @@ const ShopItem = ({ item }: { item: Shop }) => {
   const [cartCount, setCartCount] = useState(0);
   let newItemPrice: string = (item.price * 1.1).toFixed(2);
 
-  useEffect(() => {});
   return (
     <div className="ShopItem">
       <h2 className="shopTitle">
