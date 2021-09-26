@@ -1,14 +1,8 @@
 import React, { useState } from "react";
 import "../../styles/componentStyles.css";
+import ShopItemType from "./Types";
 
-interface Shop {
-  name: string;
-  id: number;
-  price: number;
-  image: string;
-}
-
-const ShopItem = ({ item }: { item: Shop }) => {
+const ShopItem = ({ item }: { item: ShopItemType }) => {
   const [cartCount, setCartCount] = useState(0);
   let newItemPrice: string = (item.price * 1.1).toFixed(2);
 
